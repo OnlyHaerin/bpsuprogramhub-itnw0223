@@ -1,0 +1,115 @@
+<records>
+  <Programs>
+    <College>College of Information and Communications Technology (CICT) </College>
+    <Course>BS Information Technology</Course>
+    <Jobs>Web Developer</Jobs>
+    <Jobs>Application Developer</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Information and Communications Technology (CICT) </College>
+    <Course>Bachelor of Science in Computer Science</Course>
+    <Jobs>Machine Learning Engineer</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Information and Communications Technology (CICT) </College>
+    <Course>BS Entertainment and Multimedia Computing</Course>
+    <Jobs>Game Developer</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Engineering and Architechture (CEA) </College>
+    <Course>Bachelor of Science in Architecture</Course>
+    <Jobs>Architect</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Engineering and Architechture (CEA) </College>
+    <Course>Bachelor of Science in Civil Engineering</Course>
+    <Jobs>Water Engineer</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Engineering and Architechture (CEA) </College>
+    <Course>Bachelor of Science in Electrical Engineering</Course>
+    <Jobs>Electrical Engineer</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Engineering and Architechture (CEA) </College>
+    <Course>Bachelor of Science in Electronics Engineering</Course>
+    <Jobs>Aerospace Engineer</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Engineering and Architechture (CEA) </College>
+    <Course>Bachelor of Science in Mechanical Engineering</Course>
+    <Jobs>Automotive Engineer</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Engineering and Architechture (CEA) </College>
+    <Course>Bachelor of Science in Industrial Engineering</Course>
+    <Jobs>Industrial Mechanic</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Nursing and Midwifery (CNM) </College>
+    <Course>Bachelor of Science in Nursing</Course>
+    <Jobs>Hospital Nurse</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Nursing and Midwifery (CNM) </College>
+    <Course>Bachelor of Science in Midwifery</Course>
+    <Jobs>Nurse Midwife</Jobs>
+  </Programs>
+<Programs>
+    <College>College of Business and Accountancy (CBA) </College>
+    <Course>Bachelor of Science in Tourism Management</Course>
+    <Jobs>Flight Attendant</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Business and Accountancy (CBA) </College>
+    <Course>Bachelor of Science in Hospitality Management</Course>
+    <Jobs>Theme Park Manager</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Technology (CTEC) </College>
+    <Course>Bachelor of Technical-Vocational Teacher Education</Course>
+    <Jobs>Technology and Livelihood Teacher</Jobs>
+  </Programs>
+  <Programs>
+    <College>College of Technology (CTEC) </College>
+    <Course>Bachelor of Industrial Technology</Course>
+    <Jobs>Maintenance Technician</Jobs>
+  </Programs>
+   <Programs>
+    <College>Depertment of Arts and Sciences (CAS) </College>
+    <Course>Bachelor of Arts in Communication</Course>
+    <Jobs>Marketing and Advertising</Jobs>
+  </Programs>
+  <Programs>
+    <College>Graduate Program</College>
+    <Course>Master of Arts in Education</Course>
+    <Jobs> Education Specialist</Jobs>
+  </Programs>
+  <Programs>
+    <College>Graduate Program</College>
+    <Course>Master in Business Administration</Course>
+    <Jobs> Human Resources Manager</Jobs>
+  </Programs>
+  <Programs>
+    <College>Graduate Program</College>
+    <Course>Master in Public Administration</Course>
+    <Jobs>Tax Examiner</Jobs>
+  </Programs>
+  <Programs>
+    <College>Graduate Program</College>
+    <Course>Master in Engineering Management</Course>
+    <Jobs>Operations Manager</Jobs>
+  </Programs>
+  <Programs>
+    <College>Graduate Program</College>
+    <Course>Master of Arts in Nursing</Course>
+    <Jobs>Nurse Anesthetist</Jobs>
+  </Programs>
+  <Programs>
+    <College>Graduate Program</College>
+    <Course>Master in Physical Education and Sports</Course>
+    <Jobs>Athletic Administrator</Jobs>
+  </Programs>
+  
+
+</records>

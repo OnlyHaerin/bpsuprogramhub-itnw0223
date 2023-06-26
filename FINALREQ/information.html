@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FINAL OUTPUT - Information</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="information.html">Information</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <style>
+    table,th,td {
+      border : 3px solid #fdf4dc;
+      border-collapse: collapse;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+    th,td {
+      padding: 10px;
+    }
+    </style>
+    <br>
+  <body>
+    <button type="button" class="button-28" onclick="loadXMLDoc()">BPSU MAIN PROGRAMS</button>
+    <br><br>
+    <div class="wrapper">
+      <div class="container">
+        <input type="text" class="input" id="myInput" onkeyup="Search()" placeholder="Search your College..." title="Type in your College">
+        <div class="close-btn">&times;</div>
+      </div>
+    </div>
+    <br><br>
+    <table id="infos" table style="color: #fdf4dc; background-color: rgba(0,0,0,0.5);"></table>
+    
+    <script>
+    function loadXMLDoc() {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          myFunction(this);
+        }
+      };
+      xmlhttp.open("GET", "file.xml", true);
+      xmlhttp.send();
+    }
+    function myFunction(xml) {
+      var i;
+      var xmlDoc = xml.responseXML;
+      var table="<tr><th>College</th><th>Courses</th><th>Possible Jobs</th></tr>";
+      var x = xmlDoc.getElementsByTagName("Programs");
+      for (i = 0; i <x.length; i++) { 
+        table += "<tr><td>" +
+        x[i].getElementsByTagName("College")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("Course")[0].childNodes[0].nodeValue +
+        "</td><td>" + 
+        x[i].getElementsByTagName("Jobs")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+      }
+      document.getElementById("infos").innerHTML = table;
+    }
+    </script>
+    <script>
+      function Search() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("infos");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+          td = tr[i].getElementsByTagName("td")[0];
+          if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              tr[i].style.display = "";
+            } else {
+              tr[i].style.display = "none";
+            }
+          }       
+        }
+      }
+      </script>
+  <!-- <footer>
+    <p>&copy; 2023 Final Output. All rights reserved.</p>
+  </footer> -->
+</body>
+</html>
