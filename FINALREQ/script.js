@@ -1,3 +1,4 @@
+/*DOM AUTOMATIC SLIDESHOW*/
 document.addEventListener("DOMContentLoaded", function() {
   var images = [
     
@@ -8,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
     "CNM.JPG",
     "CTEC.JPG",
     "DOAS.JPG"
-
   ];
 
   var currentIndex = 0;
@@ -28,12 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
   setInterval(changeImage, 2000);
 });
 
-// para sa typerwriter
-// // Optional: To start the typewriter animation after a delay
-// setTimeout(function() {
-// document.getElementById('typewriter').style.animationPlayState = 'running'; }, 1000);
-
-//PARA SA GALLERY
+/*GALLERY ANIMATION EFFECT*/
 var galleryItems = document.querySelectorAll('.gallery-item');
 
 galleryItems.forEach(function(item) {
